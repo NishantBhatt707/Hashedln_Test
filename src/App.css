@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+}
+
+.App>*{
+  flex-grow: 1;
 }
 
 .App-logo {
@@ -35,4 +40,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.search{
+  background-color: #eaf4ff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.displayItems{
+  display: flex;
+  flex-direction: column
+}
+
+.heading{
+  font-size: 20px;
+  font-family: 'Times New Roman';
+}
+
+.items{
+  font-size: 16px;
+}
+
+.sub-heading{
+  font-size: 18px;
 }
